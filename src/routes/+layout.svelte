@@ -5,7 +5,7 @@
 </script>
 
 <div class="nav">
-<Breadcrumb.Root>
+<Breadcrumb.Root class="text-white">
   <Breadcrumb.List>
     <Breadcrumb.Item>
       <Breadcrumb.Link href="/">Home</Breadcrumb.Link>
@@ -91,13 +91,13 @@
 		text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 		animation: fadeIn 1s ease-in-out;
 	}
-	.nav {
+	:global(.nav) {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
 		padding: 10px 20px;
 		background-color: #333;
-		color: #fff;
+		color: #ffffff;
 	}
 	
 </style>

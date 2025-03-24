@@ -49,8 +49,10 @@
 	<h1>Introducing Kulve, your new macOS Twitch client</h1>
 	<p>Lightweight, fast, and feature-packed for Twitch users on macOS.</p>
 	<p>
-		<Button class="bg-indigo-500" href="https://discord.gg/55T4AKJKt3">Join the Discord</Button>
-	</p>
+	   <a href="https://apps.apple.com/us/app/kulve/id6476389316?mt=12">
+			<img class= "object-fill w-64 h-12"src="/src/img/DownloadMac.svg" alt="Download Kulve for macOS"/>	
+		</a>
+    </p>
 </header>
 
 <!-- Features Section -->
@@ -153,6 +155,7 @@
 	<Button class="bg-indigo-500" href="https://discord.gg/k8G2JbQKeR">Discord</Button>
 	<Button class="bg-indigo-500" href="https://github.com/a-soll/a-soll.github.io">Github</Button>
 	<p>Built with ❤️ for macOS users.</p>
+	
 </footer>
 
 <style>
