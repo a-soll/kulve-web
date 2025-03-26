@@ -12,6 +12,10 @@
     </Breadcrumb.Item>
     <Breadcrumb.Separator />
     <Breadcrumb.Item>
+      <Breadcrumb.Link href="/blog">Blog</Breadcrumb.Link>
+    </Breadcrumb.Item>
+    <Breadcrumb.Separator />
+    <Breadcrumb.Item>
       <Breadcrumb.Link href="/privacy">Privacy</Breadcrumb.Link>
     </Breadcrumb.Item>
     <Breadcrumb.Separator />
