@@ -5,6 +5,13 @@
 	import * as Carousel from '$lib/components/ui/carousel/index.js';
 	import CarouselContent from '$lib/components/ui/carousel/carousel-content.svelte';
 	import CarouselItem from '$lib/components/ui/carousel/carousel-item.svelte';
+	import logo64 from '$lib/img/Kulve_Icon_02-64.png'
+	import logo1024 from '$lib/img/Kulve_Icon_02-1024.png'
+	import downloadmac from '$lib/img/DownloadMac.svg'
+	import seventv from '$lib/img/7tv.png'
+	import chat from '$lib/img/chat.png'
+	import player from '$lib/img/player.png'
+	import search from '$lib/img/search.png'
 </script>
 
 <svelte:head>
@@ -22,7 +29,7 @@
 	<meta name="robots" content="index, follow" />
 
 	<title>Kulve - Lightweight Twitch Client for macOS</title>
-	<link rel="shortcut icon" href="/src/img/Kulve_Icon_02-64.png" type="image/x-icon" />
+	<link rel="shortcut icon" href="{logo64}" type="image/x-icon" />
 
 	<!-- Open Graph Meta Tags -->
 	<meta property="og:title" content="Kulve - Your New macOS Twitch Client" />
@@ -30,7 +37,7 @@
 		property="og:description"
 		content="Lightweight, fast, and feature-packed Twitch client for macOS users. Join the Kulve community today!"
 	/>
-	<meta property="og:image" content="/src/img/Kulve_Icon_02-1024.png" />
+	<meta property="og:image" content="{logo1024}" />
 	<meta property="og:url" content="https://kulve.org" />
 	<meta property="og:type" content="website" />
 
@@ -41,16 +48,16 @@
 		name="twitter:description"
 		content="Lightweight, fast, and feature-packed Twitch client for macOS users. Join the Kulve community today!"
 	/>
-	<meta name="twitter:image" content="/src/img/Kulve_Icon_02-1024.png" />
+	<meta name="twitter:image" content="{logo1024}" />
 </svelte:head>
 
 <header>
-	<img src="/src/img/Kulve_Icon_02-1024.png" width="120" alt="Kulve Logo" class="center" />
+	<img src="{logo1024}" width="120" alt="Kulve Logo" class="center" />
 	<h1>Introducing Kulve, your new macOS Twitch client</h1>
 	<p>Lightweight, fast, and feature-packed for Twitch users on macOS.</p>
 	<p>
 	   <a href="https://apps.apple.com/us/app/kulve/id6476389316?mt=12">
-			<img class= "object-fill w-64 h-12"src="/src/img/DownloadMac.svg" alt="Download Kulve for macOS"/>	
+			<img class= "object-fill w-64 h-12"src="{downloadmac}" alt="Download Kulve for macOS"/>	
 		</a>
     </p>
 </header>
@@ -74,13 +81,13 @@
 			<CarouselContent>
 				<CarouselItem>
 				<div class="carousel-item-content">
-					<img src="/src/img/7tv.png" alt="7TV Emotes Feature" class="feature-image" />
+					<img src="{seventv}" alt="7TV Emotes Feature" class="feature-image" />
 					<p class="justify-center">Bring your favourite 7TV emotes into your Twitch experience seamlessly.</p>
 				</div>
 				</CarouselItem>
 				<CarouselItem>
 				<div class="carousel-item-content">
-					<img src="/src/img/chat.png" alt="Streamlined Chat Feature" class="feature-image" />
+					<img src="{chat}" alt="Streamlined Chat Feature" class="feature-image" />
 					<p>
 						Enjoy a clean and responsive chat experience that makes connecting with your community
 						effortless.
@@ -89,7 +96,7 @@
 				</CarouselItem>
 				<CarouselItem>
 				<div class="carousel-item-content">
-					<img src="/src/img/player.png" alt="Twitch Player Feature" class="feature-image" />
+					<img src="{player}" alt="Twitch Player Feature" class="feature-image" />
 					<p>
 						Optimised for macOS, the Kulve player delivers smooth performance with essential Twitch
 						controls.
@@ -98,7 +105,7 @@
 				</CarouselItem>
 				<CarouselItem>
 				<div class="carousel-item-content">
-					<img src="/src/img/search.png" alt="Search Feature" class="feature-image" />
+					<img src="{search}" alt="Search Feature" class="feature-image" />
 					<p>
 						Find your favourite streams and channels quickly with Kulve’s advanced search
 						capabilities.

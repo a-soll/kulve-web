@@ -1,5 +1,9 @@
+<script>
+    import logo1024 from '$lib/img/Kulve_Icon_02-1024.png'
+</script>
+
 <header>
-	<img src="/src/img/Kulve_Icon_02-1024.png" width="120" alt="Kulve Logo" class="align-middle center" />
+	<img src="{logo1024}" width="120" alt="Kulve Logo" class="align-middle center" />
 </header>
 <main>
 	<section>
@@ -28,8 +32,5 @@
 	.link:hover {
 		color: #0056b3;
 		text-decoration: underline;
-	}
-	header {
-		padding: 5px 10px;
 	}
 </style>
